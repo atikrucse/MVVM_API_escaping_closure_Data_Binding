@@ -56,15 +56,103 @@
 		475300DB2AAE1CB400E7FE43 /* MVVM_@escaping_closure_Data Binding */ = {
 			isa = PBXGroup;
 			children = (
-				475300DC2AAE1CB400E7FE43 /* AppDelegate.swift */,
-				475300DE2AAE1CB400E7FE43 /* SceneDelegate.swift */,
+				475300F62AAE1E2D00E7FE43 /* Application */,
+				475300F52AAE1E2A00E7FE43 /* Constant */,
+				475300F42AAE1E2600E7FE43 /* Extension */,
+				475300F32AAE1E2300E7FE43 /* Helper */,
+				475300F22AAE1E2000E7FE43 /* Screens */,
+				475300F12AAE1E1A00E7FE43 /* Storyboard */,
+				475300F02AAE1E1500E7FE43 /* Resources */,
 				475300E02AAE1CB400E7FE43 /* ViewController.swift */,
-				475300E22AAE1CB400E7FE43 /* Main.storyboard */,
-				475300E52AAE1CB500E7FE43 /* Assets.xcassets */,
-				475300E72AAE1CB500E7FE43 /* LaunchScreen.storyboard */,
 				475300EA2AAE1CB500E7FE43 /* Info.plist */,
 			);
 			path = "MVVM_@escaping_closure_Data Binding";
+			sourceTree = "<group>";
+		};
+		475300F02AAE1E1500E7FE43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				475300E52AAE1CB500E7FE43 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		475300F12AAE1E1A00E7FE43 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				475300E22AAE1CB400E7FE43 /* Main.storyboard */,
+				475300E72AAE1CB500E7FE43 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		475300F22AAE1E2000E7FE43 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				475300F72AAF68EC00E7FE43 /* Product */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		475300F32AAE1E2300E7FE43 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		475300F42AAE1E2600E7FE43 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		475300F52AAE1E2A00E7FE43 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		475300F62AAE1E2D00E7FE43 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				475300DC2AAE1CB400E7FE43 /* AppDelegate.swift */,
+				475300DE2AAE1CB400E7FE43 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		475300F72AAF68EC00E7FE43 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				475300FB2AAF697500E7FE43 /* Model */,
+				475300FA2AAF697000E7FE43 /* View */,
+				475300F92AAF696D00E7FE43 /* ViewModel */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		475300F92AAF696D00E7FE43 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		475300FA2AAF697000E7FE43 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		475300FB2AAF697500E7FE43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
